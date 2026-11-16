@@ -1,0 +1,2 @@
+common_name,scientific_name,days_between_waterings,light_hours,water_threshold_pct,toxic_to_cats,toxic_to_dogs,source_url
+Basil (TEST ROW - replace with D1),Ocimum basilicum,4.0,6.0,30.0,false,false,https://example.edu/basil
