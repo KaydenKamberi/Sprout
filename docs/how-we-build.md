@@ -139,19 +139,25 @@ Copied word for word from spec 3.9. They're in every task card too.
 | --- | --- | --- | --- |
 | [B1](../tasks/B1.md) Database schema | Kayden | 9 Nov | Nothing |
 | [B2](../tasks/B2.md) Data simulator | Kayden | 9 Nov | B1 |
-| [B3](../tasks/B3.md) Ingest endpoint | Eli | 16 Nov | B1, B2 |
-| [B4](../tasks/B4.md) Device key auth | Eli | 16 Nov | B3 |
-| [B16](../tasks/B16.md) Live server on Oracle Cloud | Eli | 16 Nov | Oracle access from Kayden; B1 to load species; B3 and B4 before a real stake posts |
-| [B17](../tasks/B17.md) Provisioning tools | Eli | 16 Nov | B1 (the USB tool waits for answers to its questions) |
+| [B4](../tasks/B4.md) Device key auth | Eli | 16 Nov | B1 |
+| [B17](../tasks/B17.md) Provisioning tools | Eli | 16 Nov | B1 to start; merges after B4 (the USB tool waits for answers to its questions) |
+| [B3](../tasks/B3.md) Ingest endpoint | Eli | 16 Nov | B1, B2, B4 |
+| [B6](../tasks/B6.md) Read endpoints | Eli | 30 Nov | B1, B4 |
 | [B5](../tasks/B5.md) Config reply | Eli | 30 Nov | B3, B4 |
-| [B6](../tasks/B6.md) Read endpoints | Eli | 30 Nov | B1 |
+| [B16](../tasks/B16.md) Live server on Oracle Cloud | Kayden | 30 Nov | The Oracle machine; B1 to load species; B3 and B4 before a real stake posts |
 | [C1](../tasks/C1.md) Dashboard shell | Ca'Marion | 16 Nov | Nothing |
 | [C2](../tasks/C2.md) Live data | Ca'Marion | 30 Nov | C1, B6 (and B16 for the live server) |
 | [C3](../tasks/C3.md) The chart | Ca'Marion | 30 Nov | C1, C2 |
 
 Megan has no task card this week. Her design checkpoints (D1, D3, D4 and D6) don't need a coding tool. She reviews changes to the shared web files and witnesses gates.
 
-Eli: B3 and B4 change the same file. Finish and merge B3 before starting B4.
+**Eli's order this week:**
+
+1. **First, B4 and B17.** Both need B1 merged. B17 uses B4's key-hashing helper, so merge B4 before B17.
+2. **Then B3 and B6,** once B1 and B2 are merged (B3 also needs B4).
+3. **B5 comes after B3.**
+
+Remember the limit of two open branches at a time.
 
 ## 7. When you're stuck
 

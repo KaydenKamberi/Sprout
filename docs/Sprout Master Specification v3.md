@@ -250,8 +250,8 @@ The dashboard reads readings and events directly, never the model. The stake run
 
 | Track | Owner | Owns |
 | --- | --- | --- |
-| Device | Kayden | Assembly, firmware, wiring, enclosure, provisioning, running the hardware gates, the plant over breaks; B14 (photo diagnosis) when there is time |
-| Backend and AI | Eli | Database, API, simulator, model, alerts, the cloud server, backups |
+| Device | Kayden | Assembly, firmware, wiring, enclosure, provisioning, running the hardware gates, the plant over breaks; B14 (photo diagnosis) when there is time; B16 (the live server on Oracle Cloud, with its backups) |
+| Backend and AI | Eli | Database, API, simulator, model, alerts |
 | Frontend | Ca'Marion, with Megan on five checkpoints | Dashboard, charts, claim and setup flow, every screen state |
 | Design and QA | Megan | Visual system, screens, species research, enclosure drawing, witnessing every gate, test log, documentation; B7 (species integration); builds C9, C10, C13, C14 and C15 with Frontend (3.7) |
 
@@ -290,7 +290,7 @@ November is the tightest stretch: A2 to A12 land in three working weeks around T
 | B2 | Data simulator | Eight weeks of messy readings for SIM-001 to SIM-003 in the dev database (10.7), written through the shared ingest\_batch function (10.1); a test fits a straight line to one simulated cycle and recovers its true rate from sim\_truth.json within 10%. Kayden builds with Claude Code; Eli takes over from 19 Nov (3.9) | 9 Nov |
 | B3 | Ingest endpoint | POST /api/readings stores and deduplicates (10.1); wraps ingest\_batch from B2 | 16 Nov |
 | B4 | Device key auth | Requests without a valid key get 401 | 16 Nov |
-| B16 | Live server on Oracle Cloud | API, MySQL and tunnel run on the Oracle virtual machine; nightly backup copied off it (5, 15) | 16 Nov |
+| B16 | Live server on Oracle Cloud | API, MySQL and tunnel run on the Oracle virtual machine; nightly backup copied off it (5, 15). Kayden builds it over Thanksgiving break (moved from Eli, 16 Nov) | 30 Nov |
 | B17 | Provisioning tools | create\_device script and USB provisioning tool work (10.8) | 16 Nov |
 | B5 | Config reply | Built per 10.2 and applied by the stake; closed loop by Fri 4 Dec | 30 Nov |
 | B6 | Read endpoints | Every GET in 13.2 returns real data | 30 Nov |
@@ -370,7 +370,7 @@ Every checkpoint goes through the same five steps. Code lives in one GitHub repo
 
 **Tools and budget.** Kayden uses Claude Code. Eli, Ca'Marion and Megan each have the Replit Core plan with about $20 of Replit credits, plus Mistral and Google AI Studio. Use Mistral or AI Studio for questions and small fixes so Replit credits last for the bigger checkpoints.
 
-**Late start (agreed 5 Nov).** Eli, Ca'Marion and Megan start building around Thu 19 Nov, and Thanksgiving recess follows (23–27 Nov), so their first full build week is Mon 30 Nov. To keep the Fri 4 Dec end-to-end path and the plant date, Kayden builds the starting pieces with Claude Code: B1 (database schema) and B2 (data simulator) before the contract freeze on Fri 13 Nov, and C1 (dashboard shell) on Mon 16 – Wed 18 Nov, once Megan's screens (D4) arrive early that week. Each owner takes over from 19 Nov. B3, B4, B16 and B17 stay with Eli and are still due Fri 20 Nov; if they slip, they move to the week of 30 Nov, and the first-real-reading milestone moves with them. Megan's design checkpoints don't need a coding tool and keep their dates.
+**Late start (agreed 5 Nov, updated 16 Nov).** Eli and Megan start building around Thu 19 Nov, and Thanksgiving recess follows (23–27 Nov), so their first full build week is Mon 30 Nov. To keep the Fri 4 Dec end-to-end path and the plant date, Kayden builds the starting pieces with Claude Code: B1 (database schema) and B2 (data simulator) on the night of Sun 15 Nov, and Eli takes them over from 19 Nov. Ca'Marion builds C1 (dashboard shell) from Mon 16 Nov, with plain placeholder screens until Megan's screens (D4) arrive. B3, B4 and B17 stay with Eli and are still due Fri 20 Nov; if they slip, they move to the week of 30 Nov, and the first-real-reading milestone moves with them. B16 moves to Kayden, due the week of 30 Nov. Megan's design checkpoints don't need a coding tool and keep their dates.
 
 **Testing backend code (agreed 6 Nov).** Replit can't run Docker and has no MySQL, so Kayden is the only person who runs backend code against MySQL 8.4. Eli's agent writes the code and its tests. When a backend pull request opens, Kayden runs the tests with Claude Code within 24 hours, and Claude Code posts the error report as a comment on that pull request, with the exact error text so Eli can hand it straight to his agent. Frontend checkpoints run against mock JSON and are tested inside Replit as normal. If backend round trips get slow, try installing MySQL 8.4 inside Eli's Replit project after his first two pull requests.
 
