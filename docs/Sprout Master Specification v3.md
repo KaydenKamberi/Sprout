@@ -103,7 +103,7 @@ Every problem below is resolved in this document. V and E items were contradicti
 | E-2 | Eli placed the light sensor both in the lid and on an arm | Lid (DEC-30) |
 | E-3 | Eli's summary table omitted columns that its table definitions had | Definitions in section 9 are the authority |
 | E-4 | Eli used v1 checkpoint numbers (B6, B12) | v2 numbering (B7, B14) |
-| E-5 | Eli listed a cloud server as settled and as still open | Pi (DEC-01) |
+| E-5 | Eli listed a cloud server as settled and as still open | Oracle Cloud server (DEC-01) |
 | E-6 | Eli's 336 buffer slots were shared with events | Separate event file (DEC-16) |
 | E-7 | Readings sent before a stake had a plant were logged as rejects and lost | Stored under the stake, attached at setup (10.1) |
 | E-8 | lux and battery\_mv could not be empty, but sensors can fail | lux nullable, with a fault flag (8.3, 9.2) |
