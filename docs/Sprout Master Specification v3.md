@@ -269,7 +269,7 @@ The real risk is not waiting. It is four people building against assumptions tha
 | A6 | Pump calibrated | ml\_per\_s recorded; no siphoning after shutoff (G11) | 16 Nov |
 | A7 | Float switch | Low water detected and the pump blocked (G12) | 16 Nov |
 | A17 | Soldering sign-off | Supervision and ventilation confirmed before the first joint; Kayden's dad supervises at home (Q25, closed 9 Nov) | 16 Nov |
-| A9a | First reading stored | First real reading in MySQL by Fri 20 Nov; the G2 network test repeated against the live server | 16 Nov |
+| A9a | First reading stored | First real reading in MySQL by Fri 4 Dec; the G2 network test repeated against the live server | 30 Nov |
 | A9b | Posting to the server | Retries make no duplicates; buffering survives power loss (G15, G16) | 30 Nov |
 | A8 | Control logic | Full loop runs into a cup; every failsafe fires; the button wakes the stake (G13, G14) | 30 Nov |
 | A10 | Soldered permanent build | Perfboard version passes the same tests (G23) | 30 Nov |
@@ -310,7 +310,7 @@ Until B15, build against a seeded account: insert one account with id 1 and keep
 
 | # | Checkpoint | Done when | Due (week of) |
 | --- | --- | --- | --- |
-| C1 | Dashboard shell | Layout built against mock JSON in the contract's shape, matching Design's screens, with the screen-folder layout from 3.7. Kayden builds with Claude Code; Ca'Marion takes over from 19 Nov (3.9) | 16 Nov |
+| C1 | Dashboard shell | Layout built against mock JSON in the contract's shape, matching Design's screens, with the screen-folder layout from 3.7. Ca'Marion builds it from Mon 16 Nov, with placeholder screens until Design's screens (D4) arrive | 16 Nov |
 | C2 | Live data | Reads the real API; shows current moisture | 30 Nov |
 | C3 | The chart | 14-day sawtooth with threshold line and watering markers (13.3) | 30 Nov |
 | C4 | Claim and plant setup | Add-device screen; species picker, name, calibration with the stake's latest raw reading shown, target ml, jar size | 7 Dec |
@@ -387,8 +387,8 @@ The chart is drawn from the milestone table below; change a date there and in th
 | Milestone | Date | What must be true | Checkpoints and gates |
 | --- | --- | --- | --- |
 | API contract frozen; simulated data in the dev database | Fri 13 Nov 2026 | Section 8 agreed; SIM-001 to SIM-003 loaded | B1, B2 |
-| Live server up; first real reading in MySQL | Fri 20 Nov | The live server serves the API over HTTPS with nightly backups; a real stake reading is stored | B3, B4, B16, B17, A9a, C1 |
-| Bench done, soldered and sealed; closed loop; dashboard on live data | Fri 4 Dec | G2–G19 (G17a only) and G23 pass; a server setting changes the stake's behaviour; the chart shows real data | A2–A12, B5, B6, C2, C3 |
+| Foundation merged | Fri 20 Nov | B1, B2 and C1 merged; B4 and B17 in review; first bench readings (A2, A3) recorded | B1, B2, C1, B4, B17, A2, A3 |
+| Bench done, soldered and sealed; closed loop; dashboard on live data; live server up; first real reading in MySQL | Fri 4 Dec | G2–G19 (G17a only) and G23 pass; a server setting changes the stake's behaviour; the chart shows real data; the live server serves the API over HTTPS with nightly backups; a real stake reading is stored | A2–A12, B5, B6, C2, C3, B16, A9a |
 | 72-hour soil test | Mon 7 – Thu 10 Dec | G20 passes clean | A13, D9 |
 | Backup restore proven; claim and setup working | Fri 11 Dec | G32 passes; a stake is claimed and a plant set up through the dashboard; the firmware update test (G21) passes | A15, B8, C4, G21 |
 | Spare week | 14–17 Dec | Finals week: reruns only, no new work. G20 re-runs here if it failed | G20 rerun only |
@@ -2039,7 +2039,7 @@ Every number a builder needs, with its status. **Decided** means the team chose 
 | --- | --- | --- |
 | Ten species as a cited CSV (9.3) | Design (D1) | 9 Nov |
 | Visual system and screens | Design (D3, D4) | 9 and 16 Nov |
-| Hostname | Backend (Q19) | 16 Nov |
+| Hostname | Kayden (Q19) | 30 Nov |
 | Oracle account (a parent's name and card, Kayden as admin) and server created | Kayden (Q29) | 16 Nov |
 | Network names and passwords (hotspot, home WiFi) | Kayden | 9 Nov |
 | Enclosure drawing and outside-facing parts | Design (D6, Q27) | 16 Nov |
@@ -2083,7 +2083,7 @@ v2's numbers are kept and never reused. A question that closes keeps its number 
 
 | # | Question | Owner | Needed by (week of) | Placeholder or next step |
 | --- | --- | --- | --- | --- |
-| Q19 | What hostname does the server use? | Backend | 16 Nov (B17) | Buy a cheap domain; use sprout.\<domain> (5.3) |
+| Q19 | What hostname does the server use? | Kayden | 30 Nov (B16) | Buy a cheap domain; use sprout.\<domain> (5.3) |
 | Q3 | Is the backup running and restorable? | Backend | Fri 11 Dec | A gate, not a question: prove it with G32 |
 
 **Decide before building the affected part**
