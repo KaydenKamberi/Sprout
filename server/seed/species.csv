@@ -1,2 +1,11 @@
 common_name,scientific_name,days_between_waterings,light_hours,water_threshold_pct,toxic_to_cats,toxic_to_dogs,source_url
-Basil (TEST ROW - replace with D1),Ocimum basilicum,4.0,6.0,30.0,false,false,https://example.edu/basil
+Basil,Ocimum basilicum,3.0,6.0,35.0,false,false,https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-problems/growing-basil
+Parsley,Petroselinum crispum,2.0,6.0,45.0,true,true,https://plants.ces.ncsu.edu/plants/petroselinum-crispum/
+Chives,Allium schoenoprasum,4.0,6.0,25.0,true,true,https://plants.ces.ncsu.edu/plants/allium-schoenoprasum/
+Spearmint,Mentha spicata,3.0,6.0,35.0,true,true,https://plants.ces.ncsu.edu/plants/mentha-spicata/
+Spider plant,Chlorophytum comosum,3.0,0.0,35.0,false,false,https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/
+Golden pothos,Epipremnum aureum,7.0,2.0,15.0,true,true,https://plants.ces.ncsu.edu/plants/epipremnum-aureum/
+Snake plant,Dracaena trifasciata,7.0,2.0,15.0,true,true,https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/
+Peace lily,Spathiphyllum,4.0,2.0,25.0,true,true,https://plants.ces.ncsu.edu/plants/spathiphyllum/
+Jade plant,Crassula ovata,10.0,6.0,10.0,true,true,https://plants.ces.ncsu.edu/plants/crassula-ovata/
+Boston fern,Nephrolepis exaltata,2.0,0.0,45.0,false,false,https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/
