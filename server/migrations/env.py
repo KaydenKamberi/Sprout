@@ -11,13 +11,15 @@ from logging.config import fileConfig
 from alembic import context
 from sqlalchemy import create_engine, pool
 
+from app.models import Base
+
 config = context.config
 
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
-# B1 replaces this with the models' MetaData so autogenerate can compare tables.
-target_metadata = None
+# The models' metadata, so later migrations can be compared against the models.
+target_metadata = Base.metadata
 
 
 def database_url() -> str:
