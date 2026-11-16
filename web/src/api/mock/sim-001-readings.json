@@ -1,0 +1,2316 @@
+{
+  "plant_id": 1,
+  "readings": [
+    {
+      "t": "2026-10-30T20:00:00Z",
+      "moisture_pct": 32.6,
+      "lux": 6397,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-30T22:00:00Z",
+      "moisture_pct": 31.2,
+      "lux": 4683,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-30T23:00:00Z",
+      "moisture_pct": 32.1,
+      "lux": 3311,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T00:00:00Z",
+      "moisture_pct": 28.7,
+      "lux": 1714,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T01:00:00Z",
+      "moisture_pct": 29.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T02:00:00Z",
+      "moisture_pct": 77.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T03:00:00Z",
+      "moisture_pct": 80.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T04:00:00Z",
+      "moisture_pct": 78.6,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T05:00:00Z",
+      "moisture_pct": 77.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T06:00:00Z",
+      "moisture_pct": 77.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T07:00:00Z",
+      "moisture_pct": 75.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T08:00:00Z",
+      "moisture_pct": 75.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T09:00:00Z",
+      "moisture_pct": 72.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T10:00:00Z",
+      "moisture_pct": 70.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T11:00:00Z",
+      "moisture_pct": 72.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T12:00:00Z",
+      "moisture_pct": 72.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T13:00:00Z",
+      "moisture_pct": 72.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T14:00:00Z",
+      "moisture_pct": 72.8,
+      "lux": 2328,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T15:00:00Z",
+      "moisture_pct": 72.0,
+      "lux": 4498,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T16:00:00Z",
+      "moisture_pct": 67.4,
+      "lux": 6361,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T17:00:00Z",
+      "moisture_pct": 67.7,
+      "lux": 7791,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T18:00:00Z",
+      "moisture_pct": 68.2,
+      "lux": 8690,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-10-31T19:00:00Z",
+      "moisture_pct": 70.6,
+      "lux": 8996,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-10-31T20:00:00Z",
+      "moisture_pct": 68.3,
+      "lux": 8690,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-10-31T21:00:00Z",
+      "moisture_pct": 67.0,
+      "lux": 7791,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-10-31T22:00:00Z",
+      "moisture_pct": 64.0,
+      "lux": 6361,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-10-31T23:00:00Z",
+      "moisture_pct": 62.5,
+      "lux": 4498,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T00:00:00Z",
+      "moisture_pct": 64.3,
+      "lux": 2328,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T01:00:00Z",
+      "moisture_pct": 60.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T02:00:00Z",
+      "moisture_pct": 61.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T03:00:00Z",
+      "moisture_pct": 60.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T04:00:00Z",
+      "moisture_pct": 62.6,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T05:00:00Z",
+      "moisture_pct": 59.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T06:00:00Z",
+      "moisture_pct": 55.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T07:00:00Z",
+      "moisture_pct": 58.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T08:00:00Z",
+      "moisture_pct": 56.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T09:00:00Z",
+      "moisture_pct": 56.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T10:00:00Z",
+      "moisture_pct": 55.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T11:00:00Z",
+      "moisture_pct": 54.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T12:00:00Z",
+      "moisture_pct": 55.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T13:00:00Z",
+      "moisture_pct": 51.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T14:00:00Z",
+      "moisture_pct": 52.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T15:00:00Z",
+      "moisture_pct": 53.5,
+      "lux": 2123,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T16:00:00Z",
+      "moisture_pct": 50.8,
+      "lux": 4101,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T17:00:00Z",
+      "moisture_pct": 48.6,
+      "lux": 5799,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T18:00:00Z",
+      "moisture_pct": 51.3,
+      "lux": 7103,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T19:00:00Z",
+      "moisture_pct": 51.3,
+      "lux": 7922,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T20:00:00Z",
+      "moisture_pct": 48.9,
+      "lux": 8202,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T21:00:00Z",
+      "moisture_pct": 45.3,
+      "lux": 7922,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T22:00:00Z",
+      "moisture_pct": 48.6,
+      "lux": 7103,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-01T23:00:00Z",
+      "moisture_pct": 44.4,
+      "lux": 5799,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "moisture_pct": 46.6,
+      "lux": 4101,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T01:00:00Z",
+      "moisture_pct": 44.1,
+      "lux": 2123,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T02:00:00Z",
+      "moisture_pct": 43.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T03:00:00Z",
+      "moisture_pct": 43.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T04:00:00Z",
+      "moisture_pct": 43.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T06:00:00Z",
+      "moisture_pct": 42.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T07:00:00Z",
+      "moisture_pct": 40.6,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T08:00:00Z",
+      "moisture_pct": 42.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T09:00:00Z",
+      "moisture_pct": 40.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T10:00:00Z",
+      "moisture_pct": 38.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T11:00:00Z",
+      "moisture_pct": 37.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T12:00:00Z",
+      "moisture_pct": 35.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T13:00:00Z",
+      "moisture_pct": 37.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T14:00:00Z",
+      "moisture_pct": 36.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T15:00:00Z",
+      "moisture_pct": 32.4,
+      "lux": 1520,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T16:00:00Z",
+      "moisture_pct": 34.6,
+      "lux": 2937,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T17:00:00Z",
+      "moisture_pct": 33.4,
+      "lux": 4154,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T18:00:00Z",
+      "moisture_pct": 36.4,
+      "lux": 5087,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T19:00:00Z",
+      "moisture_pct": 30.9,
+      "lux": 5674,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T20:00:00Z",
+      "moisture_pct": 30.6,
+      "lux": 5874,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-02T21:00:00Z",
+      "moisture_pct": 33.8,
+      "lux": 5674,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-02T22:00:00Z",
+      "moisture_pct": 33.5,
+      "lux": 5087,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-02T23:00:00Z",
+      "moisture_pct": 29.7,
+      "lux": 4154,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "moisture_pct": 29.2,
+      "lux": 2937,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T01:00:00Z",
+      "moisture_pct": 30.4,
+      "lux": 1520,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T02:00:00Z",
+      "moisture_pct": 75.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T03:00:00Z",
+      "moisture_pct": 75.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T04:00:00Z",
+      "moisture_pct": 77.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T05:00:00Z",
+      "moisture_pct": 79.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T06:00:00Z",
+      "moisture_pct": 75.6,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T07:00:00Z",
+      "moisture_pct": 75.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T08:00:00Z",
+      "moisture_pct": 76.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T09:00:00Z",
+      "moisture_pct": 77.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T10:00:00Z",
+      "moisture_pct": 72.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T11:00:00Z",
+      "moisture_pct": 72.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T12:00:00Z",
+      "moisture_pct": 74.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T13:00:00Z",
+      "moisture_pct": 69.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T14:00:00Z",
+      "moisture_pct": 72.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T15:00:00Z",
+      "moisture_pct": 68.4,
+      "lux": 2328,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T16:00:00Z",
+      "moisture_pct": 69.3,
+      "lux": 4497,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T17:00:00Z",
+      "moisture_pct": 68.1,
+      "lux": 6359,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T18:00:00Z",
+      "moisture_pct": 66.3,
+      "lux": 7789,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T19:00:00Z",
+      "moisture_pct": 65.5,
+      "lux": 8687,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T20:00:00Z",
+      "moisture_pct": 66.7,
+      "lux": 8994,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T21:00:00Z",
+      "moisture_pct": 67.0,
+      "lux": 8687,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T22:00:00Z",
+      "moisture_pct": 64.6,
+      "lux": 7789,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-03T23:00:00Z",
+      "moisture_pct": 64.2,
+      "lux": 6359,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "moisture_pct": 64.2,
+      "lux": 4497,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T01:00:00Z",
+      "moisture_pct": 61.1,
+      "lux": 2328,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T02:00:00Z",
+      "moisture_pct": 63.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T03:00:00Z",
+      "moisture_pct": 62.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T04:00:00Z",
+      "moisture_pct": 64.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T05:00:00Z",
+      "moisture_pct": 59.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T06:00:00Z",
+      "moisture_pct": 58.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T07:00:00Z",
+      "moisture_pct": 59.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T08:00:00Z",
+      "moisture_pct": 58.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T09:00:00Z",
+      "moisture_pct": 56.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T10:00:00Z",
+      "moisture_pct": 55.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T11:00:00Z",
+      "moisture_pct": 56.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T12:00:00Z",
+      "moisture_pct": 53.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T13:00:00Z",
+      "moisture_pct": 53.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T15:00:00Z",
+      "moisture_pct": 53.9,
+      "lux": 2285,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T16:00:00Z",
+      "moisture_pct": 50.8,
+      "lux": 4414,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T17:00:00Z",
+      "moisture_pct": 48.2,
+      "lux": 6243,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T18:00:00Z",
+      "moisture_pct": 47.4,
+      "lux": 7646,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T19:00:00Z",
+      "moisture_pct": 47.7,
+      "lux": 8528,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T20:00:00Z",
+      "moisture_pct": 46.9,
+      "lux": 8829,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T21:00:00Z",
+      "moisture_pct": 47.9,
+      "lux": 8528,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T22:00:00Z",
+      "moisture_pct": 45.6,
+      "lux": 7646,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-04T23:00:00Z",
+      "moisture_pct": 45.6,
+      "lux": 6243,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "moisture_pct": 44.8,
+      "lux": 4414,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T01:00:00Z",
+      "moisture_pct": 44.6,
+      "lux": 2285,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T02:00:00Z",
+      "moisture_pct": 46.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T03:00:00Z",
+      "moisture_pct": 44.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T04:00:00Z",
+      "moisture_pct": 43.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T05:00:00Z",
+      "moisture_pct": 41.6,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T06:00:00Z",
+      "moisture_pct": 40.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T07:00:00Z",
+      "moisture_pct": 41.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T08:00:00Z",
+      "moisture_pct": 41.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T09:00:00Z",
+      "moisture_pct": 38.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T10:00:00Z",
+      "moisture_pct": 38.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T11:00:00Z",
+      "moisture_pct": 35.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T12:00:00Z",
+      "moisture_pct": 37.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T13:00:00Z",
+      "moisture_pct": 38.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T14:00:00Z",
+      "moisture_pct": 35.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T15:00:00Z",
+      "moisture_pct": 38.3,
+      "lux": 1637,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T16:00:00Z",
+      "moisture_pct": 33.5,
+      "lux": 3162,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T17:00:00Z",
+      "moisture_pct": 34.5,
+      "lux": 4472,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T18:00:00Z",
+      "moisture_pct": 33.5,
+      "lux": 5477,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T19:00:00Z",
+      "moisture_pct": 32.7,
+      "lux": 6109,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T20:00:00Z",
+      "moisture_pct": 32.1,
+      "lux": 6325,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T21:00:00Z",
+      "moisture_pct": 31.7,
+      "lux": 6109,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T22:00:00Z",
+      "moisture_pct": 32.2,
+      "lux": 5477,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-05T23:00:00Z",
+      "moisture_pct": 32.3,
+      "lux": 4472,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "moisture_pct": 29.6,
+      "lux": 3162,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T01:00:00Z",
+      "moisture_pct": 80.1,
+      "lux": 1637,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T02:00:00Z",
+      "moisture_pct": 77.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T03:00:00Z",
+      "moisture_pct": 78.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T04:00:00Z",
+      "moisture_pct": 75.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T05:00:00Z",
+      "moisture_pct": 77.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T06:00:00Z",
+      "moisture_pct": 78.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T07:00:00Z",
+      "moisture_pct": 74.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T08:00:00Z",
+      "moisture_pct": 71.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T09:00:00Z",
+      "moisture_pct": 72.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T10:00:00Z",
+      "moisture_pct": 74.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T11:00:00Z",
+      "moisture_pct": 73.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T12:00:00Z",
+      "moisture_pct": 72.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T13:00:00Z",
+      "moisture_pct": 72.6,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T14:00:00Z",
+      "moisture_pct": 71.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T15:00:00Z",
+      "moisture_pct": 71.6,
+      "lux": 1483,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T16:00:00Z",
+      "moisture_pct": 70.5,
+      "lux": 2865,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T17:00:00Z",
+      "moisture_pct": 70.8,
+      "lux": 4052,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T18:00:00Z",
+      "moisture_pct": 68.4,
+      "lux": 4962,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T19:00:00Z",
+      "moisture_pct": 68.6,
+      "lux": 5535,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T20:00:00Z",
+      "moisture_pct": 66.1,
+      "lux": 5730,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T21:00:00Z",
+      "moisture_pct": 65.0,
+      "lux": 5535,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T22:00:00Z",
+      "moisture_pct": 67.8,
+      "lux": 4962,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-06T23:00:00Z",
+      "moisture_pct": 65.0,
+      "lux": 4052,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "moisture_pct": 65.2,
+      "lux": 2865,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T01:00:00Z",
+      "moisture_pct": 63.5,
+      "lux": 1483,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T02:00:00Z",
+      "moisture_pct": 61.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T03:00:00Z",
+      "moisture_pct": 62.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T04:00:00Z",
+      "moisture_pct": 63.6,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T06:00:00Z",
+      "moisture_pct": 57.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T07:00:00Z",
+      "moisture_pct": 59.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T08:00:00Z",
+      "moisture_pct": 61.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T09:00:00Z",
+      "moisture_pct": 57.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T10:00:00Z",
+      "moisture_pct": 54.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T11:00:00Z",
+      "moisture_pct": 59.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T12:00:00Z",
+      "moisture_pct": 57.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T13:00:00Z",
+      "moisture_pct": 55.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T14:00:00Z",
+      "moisture_pct": 54.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T15:00:00Z",
+      "moisture_pct": 55.5,
+      "lux": 2095,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T16:00:00Z",
+      "moisture_pct": 52.4,
+      "lux": 4047,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T17:00:00Z",
+      "moisture_pct": 54.2,
+      "lux": 5724,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T18:00:00Z",
+      "moisture_pct": 52.6,
+      "lux": 7010,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T19:00:00Z",
+      "moisture_pct": 51.4,
+      "lux": 7819,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-07T20:00:00Z",
+      "moisture_pct": 50.6,
+      "lux": 8095,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-07T21:00:00Z",
+      "moisture_pct": 49.4,
+      "lux": 7819,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-07T22:00:00Z",
+      "moisture_pct": 50.5,
+      "lux": 7010,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-07T23:00:00Z",
+      "moisture_pct": 46.9,
+      "lux": 5724,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "moisture_pct": 45.1,
+      "lux": 4047,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T01:00:00Z",
+      "moisture_pct": 47.8,
+      "lux": 2095,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T02:00:00Z",
+      "moisture_pct": 47.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T03:00:00Z",
+      "moisture_pct": 46.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T04:00:00Z",
+      "moisture_pct": 45.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T05:00:00Z",
+      "moisture_pct": 43.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T06:00:00Z",
+      "moisture_pct": 44.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T07:00:00Z",
+      "moisture_pct": 42.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T08:00:00Z",
+      "moisture_pct": 41.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T09:00:00Z",
+      "moisture_pct": 40.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T10:00:00Z",
+      "moisture_pct": 43.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T11:00:00Z",
+      "moisture_pct": 37.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T12:00:00Z",
+      "moisture_pct": 40.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T13:00:00Z",
+      "moisture_pct": 36.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T14:00:00Z",
+      "moisture_pct": 38.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T15:00:00Z",
+      "moisture_pct": 36.9,
+      "lux": 1252,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T16:00:00Z",
+      "moisture_pct": 33.8,
+      "lux": 2419,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T17:00:00Z",
+      "moisture_pct": 36.9,
+      "lux": 3421,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T18:00:00Z",
+      "moisture_pct": 35.1,
+      "lux": 4190,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T19:00:00Z",
+      "moisture_pct": 31.9,
+      "lux": 4674,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T20:00:00Z",
+      "moisture_pct": 35.7,
+      "lux": 4839,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T21:00:00Z",
+      "moisture_pct": 36.0,
+      "lux": 4674,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T22:00:00Z",
+      "moisture_pct": 35.4,
+      "lux": 4190,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-08T23:00:00Z",
+      "moisture_pct": 33.1,
+      "lux": 3421,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "moisture_pct": 32.0,
+      "lux": 2419,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T01:00:00Z",
+      "moisture_pct": 33.3,
+      "lux": 1252,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T02:00:00Z",
+      "moisture_pct": 33.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T03:00:00Z",
+      "moisture_pct": 31.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T04:00:00Z",
+      "moisture_pct": 28.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T05:00:00Z",
+      "moisture_pct": 79.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T06:00:00Z",
+      "moisture_pct": 78.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T07:00:00Z",
+      "moisture_pct": 74.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T08:00:00Z",
+      "moisture_pct": 77.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T09:00:00Z",
+      "moisture_pct": 79.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T10:00:00Z",
+      "moisture_pct": 76.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T11:00:00Z",
+      "moisture_pct": 77.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T12:00:00Z",
+      "moisture_pct": 74.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T13:00:00Z",
+      "moisture_pct": 73.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T14:00:00Z",
+      "moisture_pct": 73.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T15:00:00Z",
+      "moisture_pct": 71.3,
+      "lux": 1346,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T16:00:00Z",
+      "moisture_pct": 70.5,
+      "lux": 2600,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T17:00:00Z",
+      "moisture_pct": 73.2,
+      "lux": 3677,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T18:00:00Z",
+      "moisture_pct": 72.7,
+      "lux": 4503,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T19:00:00Z",
+      "moisture_pct": 68.5,
+      "lux": 5022,
+      "battery_mv": 3900,
+      "time_status": "estimated"
+    },
+    {
+      "t": "2026-11-09T20:00:00Z",
+      "moisture_pct": 70.8,
+      "lux": 5199,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-09T21:00:00Z",
+      "moisture_pct": 68.6,
+      "lux": 5022,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-09T22:00:00Z",
+      "moisture_pct": 68.6,
+      "lux": 4503,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-09T23:00:00Z",
+      "moisture_pct": 68.2,
+      "lux": 3677,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "moisture_pct": 68.3,
+      "lux": 2600,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T01:00:00Z",
+      "moisture_pct": 66.3,
+      "lux": 1346,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T02:00:00Z",
+      "moisture_pct": 67.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T03:00:00Z",
+      "moisture_pct": 65.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T04:00:00Z",
+      "moisture_pct": 65.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T05:00:00Z",
+      "moisture_pct": 62.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T06:00:00Z",
+      "moisture_pct": 66.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T07:00:00Z",
+      "moisture_pct": 63.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T08:00:00Z",
+      "moisture_pct": 62.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T09:00:00Z",
+      "moisture_pct": 58.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T10:00:00Z",
+      "moisture_pct": 59.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T11:00:00Z",
+      "moisture_pct": 61.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T12:00:00Z",
+      "moisture_pct": 59.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T13:00:00Z",
+      "moisture_pct": 55.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T14:00:00Z",
+      "moisture_pct": 59.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T15:00:00Z",
+      "moisture_pct": 56.8,
+      "lux": 1047,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T16:00:00Z",
+      "moisture_pct": 59.1,
+      "lux": 2022,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T17:00:00Z",
+      "moisture_pct": 56.2,
+      "lux": 2860,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T18:00:00Z",
+      "moisture_pct": 56.1,
+      "lux": 3502,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T19:00:00Z",
+      "moisture_pct": 56.9,
+      "lux": 3906,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T20:00:00Z",
+      "moisture_pct": 53.2,
+      "lux": 4044,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T21:00:00Z",
+      "moisture_pct": 52.5,
+      "lux": 3906,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T22:00:00Z",
+      "moisture_pct": 53.1,
+      "lux": 3502,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-10T23:00:00Z",
+      "moisture_pct": 54.0,
+      "lux": 2860,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T00:00:00Z",
+      "moisture_pct": 50.2,
+      "lux": 2022,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T01:00:00Z",
+      "moisture_pct": 49.1,
+      "lux": 1047,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T03:00:00Z",
+      "moisture_pct": 49.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T04:00:00Z",
+      "moisture_pct": 49.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T05:00:00Z",
+      "moisture_pct": 46.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T06:00:00Z",
+      "moisture_pct": 47.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T07:00:00Z",
+      "moisture_pct": 47.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T08:00:00Z",
+      "moisture_pct": 48.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T09:00:00Z",
+      "moisture_pct": 45.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T10:00:00Z",
+      "moisture_pct": 48.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T12:00:00Z",
+      "moisture_pct": 43.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T13:00:00Z",
+      "moisture_pct": 46.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T14:00:00Z",
+      "moisture_pct": 43.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T15:00:00Z",
+      "moisture_pct": 41.5,
+      "lux": 2257,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T16:00:00Z",
+      "moisture_pct": 41.3,
+      "lux": 4361,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T17:00:00Z",
+      "moisture_pct": 42.9,
+      "lux": 6167,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T18:00:00Z",
+      "moisture_pct": 42.3,
+      "lux": 7553,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T19:00:00Z",
+      "moisture_pct": 38.2,
+      "lux": 8424,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T20:00:00Z",
+      "moisture_pct": 38.6,
+      "lux": 8722,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T21:00:00Z",
+      "moisture_pct": 38.1,
+      "lux": 8424,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T22:00:00Z",
+      "moisture_pct": 35.8,
+      "lux": 7553,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-11T23:00:00Z",
+      "moisture_pct": 36.4,
+      "lux": 6167,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "moisture_pct": 35.8,
+      "lux": 4361,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T01:00:00Z",
+      "moisture_pct": 36.8,
+      "lux": 2257,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T02:00:00Z",
+      "moisture_pct": 36.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T03:00:00Z",
+      "moisture_pct": 33.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T04:00:00Z",
+      "moisture_pct": 32.6,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T05:00:00Z",
+      "moisture_pct": 33.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T06:00:00Z",
+      "moisture_pct": 30.6,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T07:00:00Z",
+      "moisture_pct": 31.6,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T08:00:00Z",
+      "moisture_pct": 29.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T09:00:00Z",
+      "moisture_pct": 27.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T10:00:00Z",
+      "moisture_pct": 77.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T11:00:00Z",
+      "moisture_pct": 80.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T12:00:00Z",
+      "moisture_pct": 77.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T13:00:00Z",
+      "moisture_pct": 79.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T14:00:00Z",
+      "moisture_pct": 75.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T15:00:00Z",
+      "moisture_pct": 75.6,
+      "lux": 2068,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T16:00:00Z",
+      "moisture_pct": 78.0,
+      "lux": 3995,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T17:00:00Z",
+      "moisture_pct": 72.1,
+      "lux": 5649,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T18:00:00Z",
+      "moisture_pct": 70.2,
+      "lux": 6919,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T19:00:00Z",
+      "moisture_pct": 74.3,
+      "lux": 7717,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T20:00:00Z",
+      "moisture_pct": 70.4,
+      "lux": 7989,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T21:00:00Z",
+      "moisture_pct": 70.9,
+      "lux": 7717,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T22:00:00Z",
+      "moisture_pct": 69.3,
+      "lux": 6919,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-12T23:00:00Z",
+      "moisture_pct": 69.9,
+      "lux": 5649,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "moisture_pct": 67.4,
+      "lux": 3995,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T01:00:00Z",
+      "moisture_pct": 67.8,
+      "lux": 2068,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T02:00:00Z",
+      "moisture_pct": 68.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T03:00:00Z",
+      "moisture_pct": 65.2,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T04:00:00Z",
+      "moisture_pct": 65.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T05:00:00Z",
+      "moisture_pct": 64.8,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T06:00:00Z",
+      "moisture_pct": 62.5,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T07:00:00Z",
+      "moisture_pct": 63.3,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T08:00:00Z",
+      "moisture_pct": 63.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T09:00:00Z",
+      "moisture_pct": 61.9,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T10:00:00Z",
+      "moisture_pct": 61.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T11:00:00Z",
+      "moisture_pct": 61.0,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T12:00:00Z",
+      "moisture_pct": 59.4,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T13:00:00Z",
+      "moisture_pct": 60.7,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T14:00:00Z",
+      "moisture_pct": 61.1,
+      "lux": 0,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T15:00:00Z",
+      "moisture_pct": 57.5,
+      "lux": 2130,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T16:00:00Z",
+      "moisture_pct": 58.3,
+      "lux": 4115,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T17:00:00Z",
+      "moisture_pct": 56.5,
+      "lux": 5820,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T18:00:00Z",
+      "moisture_pct": 56.7,
+      "lux": 7128,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    },
+    {
+      "t": "2026-11-13T19:00:00Z",
+      "moisture_pct": 57.7,
+      "lux": 7951,
+      "battery_mv": 3900,
+      "time_status": "synced"
+    }
+  ],
+  "gaps": []
+}
