@@ -1,0 +1,9 @@
+/* Global styles. All styles live in .css files: no inline styles (spec 10.9, DEC-03). */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.placeholder {
+  padding: 2rem;
+}
