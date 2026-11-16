@@ -1,0 +1,38 @@
+{
+  "serial": "SPROUT-001",
+  "firmware_version": "1.0.0",
+  "sent_time": "2026-12-08T19:31:04Z",
+  "sent_boot_id": 17,
+  "sent_uptime_s": 106264,
+  "dropped_count": 0,
+  "readings": [
+    {
+      "reading_id": "SPROUT-001-000123",
+      "boot_id": 17,
+      "uptime_s": 86400,
+      "device_time": "2026-12-08T14:00:00Z",
+      "time_status": "synced",
+      "moisture_raw": 2025,
+      "moisture_pct": 42.5,
+      "lux": 8200,
+      "battery_mv": 3810,
+      "reservoir_low": false,
+      "sensor_fault": false,
+      "soil_temp_c": null
+    }
+  ],
+  "events": [
+    {
+      "event_id": "SPROUT-001-E000045",
+      "boot_id": 17,
+      "uptime_s": 69120,
+      "device_time": "2026-12-08T09:12:00Z",
+      "time_status": "synced",
+      "duration_ms": 8400,
+      "trigger": "auto",
+      "request_id": null,
+      "moisture_before": 28.1,
+      "delivery": "ok"
+    }
+  ]
+}

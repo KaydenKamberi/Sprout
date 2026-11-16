@@ -28,3 +28,6 @@ Thumbs.db
 .replit
 replit.nix
 .upm/
+
+# Simulator output (tools/simulate/README.md)
+tools/simulate/output/
