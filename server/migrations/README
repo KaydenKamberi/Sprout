@@ -1,0 +1,3 @@
+Alembic migrations for the Sprout database. There are none yet: checkpoint B1 creates every
+table in spec section 9. Only the backend lead writes migrations. The database address comes
+from the DATABASE_URL environment variable.

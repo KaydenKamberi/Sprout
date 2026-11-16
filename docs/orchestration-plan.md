@@ -3,7 +3,7 @@
 How the four of us and our AI coding agents build Sprout without overwriting each other's work.
 
 - **Written:** 16 Nov 2026, from the team's planning sessions of 10–13 Nov.
-- **Applies to:** every checkpoint in section 3 of the [Sprout Master Specification v3](../Sprout%20Master%20Specification%20v3.md).
+- **Applies to:** every checkpoint in section 3 of the [Sprout Master Specification v3](Sprout%20Master%20Specification%20v3.md).
 - **Relationship to the spec:** the spec says *what* gets built. This document says *how* we work together to build it. Where they disagree, the spec wins until a spec pull request changes it. Section 11 lists the places where this plan needs a spec update.
 
 ## Contents

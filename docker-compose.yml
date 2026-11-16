@@ -1,0 +1,26 @@
+# Local development database: MySQL 8.4 LTS, the same official image the live server uses (spec 5.1).
+# Start it with:  docker compose up -d
+# Passwords come from your own .env file (copy .env.example to .env and change them).
+# Never point a development app at the live database (spec 5.2).
+
+services:
+  mysql:
+    image: mysql:8.4
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3306:3306"
+    environment:
+      MYSQL_DATABASE: sprout
+      MYSQL_USER: sprout
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Set MYSQL_PASSWORD in .env (see .env.example)}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Set MYSQL_ROOT_PASSWORD in .env (see .env.example)}
+    volumes:
+      - sprout-mysql:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "--silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  sprout-mysql:
