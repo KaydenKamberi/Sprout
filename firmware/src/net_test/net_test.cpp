@@ -53,12 +53,12 @@ static const size_t REPLY_PRINT_MAX = 300;        // characters of the server re
 extern const uint8_t ROOT_BUNDLE_START[] asm("_binary_certs_x509_crt_bundle_start");
 extern const uint8_t ROOT_BUNDLE_END[] asm("_binary_certs_x509_crt_bundle_end");
 
-struct Network {
+struct WifiSlot {
     const char *ssid;
     const char *password;
 };
 
-static const Network NETWORKS[] = {
+static const WifiSlot NETWORKS[] = {
     {WIFI_1_SSID, WIFI_1_PASSWORD},
     {WIFI_2_SSID, WIFI_2_PASSWORD},
     {WIFI_3_SSID, WIFI_3_PASSWORD},
