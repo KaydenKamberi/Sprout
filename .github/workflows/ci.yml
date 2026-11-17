@@ -92,3 +92,8 @@ jobs:
         run: pip install platformio==6.2.0
       - name: Laptop tests
         run: pio test -e native
+      # secrets.h is never committed; the example file's fake values are enough to compile.
+      - name: Build the G2 network test program
+        run: |
+          cp include/secrets.example.h include/secrets.h
+          pio run -e net_test
