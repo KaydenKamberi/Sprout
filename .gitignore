@@ -16,6 +16,8 @@ web/dist/
 
 # Firmware
 .pio/
+# WiFi names, passwords and the test URL (firmware/README.md); secrets.example.h is the committed template
+firmware/include/secrets.h
 
 # Editors and operating systems
 .vscode/
