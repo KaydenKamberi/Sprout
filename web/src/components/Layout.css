@@ -22,10 +22,6 @@
 }
 
 .theme-toggle {
-  position: absolute;
-  right: 26px;
-  top: 50%;
-  transform: translateY(-50%);
   min-height: 40px;
   padding: 8px 18px;
   border-radius: 999px;
@@ -36,17 +32,13 @@
   cursor: pointer;
 }
 
-.theme-toggle:hover {
-  color: var(--accent);
-  border-color: var(--accent);
-}
-
-.auth-links {
+.header-actions {
   position: absolute;
-  right: 120px;
+  right: 26px;
   top: 50%;
   transform: translateY(-50%);
   display: flex;
+  align-items: center;
   gap: 10px;
 }
 

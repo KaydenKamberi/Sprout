@@ -33,21 +33,23 @@ export default function Layout() {
     <div className="app-frame">
       <header className="app-header">
         <span className="logo">Sprout</span>
-        <button
-          type="button"
-          className="theme-toggle"
-          onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-        >
-          {theme === "light" ? "Dark" : "Light"}
-        </button>
-        <nav className="auth-links">
-          <Link to="/login" className="auth-link">
-            Log in
-          </Link>
-          <Link to="/signup" className="auth-link auth-link-primary">
-            Sign up
-          </Link>
-        </nav>
+        <div className="header-actions">
+          <button
+            type="button"
+            className="theme-toggle"
+            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+          >
+            {theme === "light" ? "Dark" : "Light"}
+          </button>
+          <nav className="auth-links">
+            <Link to="/login" className="auth-link">
+              Log in
+            </Link>
+            <Link to="/signup" className="auth-link auth-link-primary">
+              Sign up
+            </Link>
+          </nav>
+        </div>
       </header>
       <div className="frame">
         <aside className="sidebar">
