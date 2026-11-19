@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { NavLink, Outlet, useLocation } from "react-router";
 import Vine from "./Vine";
 import "./Layout.css";
@@ -16,13 +16,17 @@ const NAV_ITEMS = [
 ];
 
 function initialTheme(): Theme {
-  const saved = typeof localStorage !== "undefined" ? localStorage.getItem("sprout-theme") : null;
-  return saved === "dark" ? "dark" : "light";
+  return document.documentElement.dataset.theme === "dark" ? "dark" : "light";
 }
 
 export default function Layout() {
   const [theme, setTheme] = useState<Theme>(initialTheme);
   const { pathname } = useLocation();
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    localStorage.setItem("sprout-theme", theme);
+  }, [theme]);
   const activeIndex = NAV_ITEMS.findIndex((item) => item.match(pathname));
 
   return (
