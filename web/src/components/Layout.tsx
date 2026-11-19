@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { NavLink, Outlet, useLocation } from "react-router";
+import { Link, NavLink, Outlet, useLocation } from "react-router";
 import Vine from "./Vine";
 import "./Layout.css";
 
@@ -40,6 +40,14 @@ export default function Layout() {
         >
           {theme === "light" ? "Dark" : "Light"}
         </button>
+        <nav className="auth-links">
+          <Link to="/login" className="auth-link">
+            Log in
+          </Link>
+          <Link to="/signup" className="auth-link auth-link-primary">
+            Sign up
+          </Link>
+        </nav>
       </header>
       <div className="frame">
         <aside className="sidebar">

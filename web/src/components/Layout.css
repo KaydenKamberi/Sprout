@@ -41,6 +41,52 @@
   border-color: var(--accent);
 }
 
+.auth-links {
+  position: absolute;
+  right: 120px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.auth-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--edge);
+  background: var(--sidebar);
+  color: var(--muted);
+  font: 500 13.5px "Inter", sans-serif;
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.auth-link-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+
+[data-theme="dark"] .auth-link-primary {
+  color: #14261b;
+  font-weight: 600;
+}
+
+.auth-link-primary:hover {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .auth-link-primary:hover {
+  color: #14261b;
+}
+
 .frame {
   display: flex;
   flex: 1;
