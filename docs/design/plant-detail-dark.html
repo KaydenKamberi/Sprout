@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<title>Sprout — plant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root { --item-h: 64px; }
+[data-theme="dark"] {
+  --bg: #0F1F16; --sidebar: #14261B; --edge: #24402F;
+  --text: #F2EDE4; --muted: #A3B5A7; --accent: #8FD694; --leaf2: #5FA96B;
+  --block-a: #33261C; --block-a-edge: #4A382A;
+  --block-b: #1C2B21; --block-b-edge: #2A4030;
+  --ph: #223528; --ph-text: #7E9484;
+}
+[data-theme="light"] {
+  --bg: #FFFFFF; --sidebar: #FBFAF6; --edge: #E4E0D5;
+  --text: #2B2B26; --muted: #8A887C; --accent: #3E7C46; --leaf2: #79A681;
+  --block-a: #8B5E3C; --block-a-edge: #7A5033;
+  --block-b: #CFCDC7; --block-b-edge: #BDBBB4;
+  --ph: #FFFFFF; --ph-text: #9A9890;
+}
+* { box-sizing: border-box; margin: 0; }
+body { font-family: "Inter", system-ui, sans-serif; background: var(--bg); color: var(--text); height: 100vh; overflow: hidden; }
+header { height: 88px; display: grid; place-items: center; }
+.logo { font-family: "Pacifico", cursive; font-size: 34px; color: var(--accent); }
+.frame { display: flex; height: calc(100vh - 88px); }
+.sidebar { width: 230px; flex: none; background: var(--sidebar); border-right: 1px solid var(--edge); position: relative; overflow: hidden; }
+.vine { position: absolute; top: 0; left: 0; height: 100%; }
+.vine .stem { fill: none; stroke: var(--accent); stroke-width: 2.6; stroke-linecap: round; opacity: 0.95; }
+.vine .leaf .blade { fill: var(--leaf2); opacity: 0.8; stroke: none; }
+.vine .leaf .vein { fill: none; stroke: var(--sidebar); stroke-width: 1.1; opacity: 0.7; }
+.vine .leaf.current .blade { fill: var(--accent); opacity: 1; }
+.vine .tendril { fill: none; stroke: var(--accent); stroke-width: 1.3; opacity: 0.55; stroke-linecap: round; }
+.menu { position: relative; padding-top: 26px; }
+.menu a {
+  display: flex; align-items: center; height: var(--item-h); padding-left: 76px;
+  color: var(--muted); text-decoration: none; font: 500 15.5px "Inter", sans-serif; letter-spacing: 0.01em;
+}
+.menu a.current { color: var(--accent); font-weight: 600; }
+.main { flex: 1; display: flex; flex-direction: column; gap: 22px; padding: 8px 26px 26px; min-width: 0; }
+.block-a { flex: 1.15; background: var(--block-a); border: 1px solid var(--block-a-edge); border-radius: 18px; display: grid; place-items: center; }
+.block-b { flex: 1; background: var(--block-b); border: 1px solid var(--block-b-edge); border-radius: 18px; display: grid; place-items: center; }
+.ph { background: var(--ph); border: 1.5px dashed var(--ph-text); border-radius: 12px; padding: 26px 44px; color: var(--ph-text); font: 500 15px "Inter", sans-serif; }
+</style>
+</head>
+<body>
+<header><div class="logo">Sprout</div></header>
+<div class="frame">
+  <aside class="sidebar">
+    <svg class="vine" width="110" height="712" viewBox="0 0 110 712" preserveAspectRatio="none"><path class="stem" d="M46.2,-8.0 C46.0,-3.3 46.5,10.7 45.3,20.0 C44.2,29.3 41.6,38.7 39.5,48.0 C37.4,57.3 34.3,66.7 32.6,76.0 C30.9,85.3 29.8,94.7 29.4,104.0 C28.9,113.3 29.7,122.7 29.8,132.0 C30.0,141.3 30.4,150.7 30.1,160.0 C29.9,169.3 28.8,178.7 28.2,188.0 C27.6,197.3 26.5,206.7 26.7,216.0 C27.0,225.3 28.0,234.7 29.6,244.0 C31.3,253.3 34.4,262.7 36.6,272.0 C38.8,281.3 41.5,290.7 42.8,300.0 C44.1,309.3 44.4,318.7 44.3,328.0 C44.3,337.3 43.1,346.7 42.7,356.0 C42.3,365.3 41.9,374.7 42.1,384.0 C42.2,393.3 43.2,402.7 43.4,412.0 C43.6,421.3 44.1,430.7 43.3,440.0 C42.5,449.3 40.6,458.7 38.6,468.0 C36.6,477.3 33.3,486.7 31.3,496.0 C29.3,505.3 27.3,514.7 26.6,524.0 C25.9,533.3 26.5,542.7 27.0,552.0 C27.5,561.3 29.0,570.7 29.6,580.0 C30.2,589.3 30.5,598.7 30.6,608.0 C30.7,617.3 29.8,626.7 30.0,636.0 C30.2,645.3 30.4,654.7 31.6,664.0 C32.8,673.3 36.4,687.3 37.4,692.0"/><g transform="translate(48.0 14.0) rotate(-43.247421106633375) scale(0.87,0.87)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(38.4 44.4) rotate(-26.71744213880203) scale(-0.64,0.64)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><path class="tendril" transform="translate(40.4 44.4) scale(-1,1)" d="M0,0 C7,-1 11,-7 9,-13 C7.5,-17 2.5,-17 2,-13 C1.6,-10 4.5,-8.5 6.5,-10"/><g transform="translate(34.7 75.6) rotate(-42.55290549293313) scale(0.65,0.65)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(27.3 111.5) rotate(-37.51691934493345) scale(-0.67,0.67)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(32.3 148.9) rotate(-30.926141963270354) scale(0.84,0.84)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(27.3 175.4) rotate(-34.994847119396304) scale(-0.95,0.95)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><path class="tendril" transform="translate(29.3 175.4) scale(-1,1)" d="M0,0 C7,-1 11,-7 9,-13 C7.5,-17 2.5,-17 2,-13 C1.6,-10 4.5,-8.5 6.5,-10"/><g transform="translate(29.1 202.9) rotate(-14.987198353438806) scale(0.74,0.74)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(26.2 235.8) rotate(-31.84889337642221) scale(-0.86,0.86)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(36.1 262.6) rotate(-38.17356891286559) scale(0.64,0.64)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(39.7 293.7) rotate(-23.748649186709727) scale(-0.74,0.74)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(46.4 323.3) rotate(-19.43821151827629) scale(0.92,0.92)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(40.7 356.2) rotate(-12.7447751682097) scale(-0.82,0.82)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(44.1 385.7) rotate(-41.51350042631144) scale(0.99,0.99)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(41.7 420.8) rotate(-27.419402181919388) scale(-0.68,0.68)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><path class="tendril" transform="translate(43.7 420.8) scale(-1,1)" d="M0,0 C7,-1 11,-7 9,-13 C7.5,-17 2.5,-17 2,-13 C1.6,-10 4.5,-8.5 6.5,-10"/><g transform="translate(43.4 454.8) rotate(-24.22501426945941) scale(0.91,0.91)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(32.3 484.5) rotate(-23.4139446700093) scale(-0.88,0.88)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(29.4 516.0) rotate(-10.102118385898379) scale(0.94,0.94)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(24.8 550.0) rotate(-19.343303190431893) scale(-0.64,0.64)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(32.2 587.9) rotate(-35.18536978042233) scale(0.93,0.93)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><g transform="translate(28.3 621.9) rotate(-28.455579120608895) scale(-0.63,0.63)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><path class="tendril" transform="translate(30.3 621.9) scale(-1,1)" d="M0,0 C7,-1 11,-7 9,-13 C7.5,-17 2.5,-17 2,-13 C1.6,-10 4.5,-8.5 6.5,-10"/><g transform="translate(32.2 649.3) rotate(-16.80714643804421) scale(0.64,0.64)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><path class="tendril" transform="translate(30.2 649.3) scale(1,1)" d="M0,0 C7,-1 11,-7 9,-13 C7.5,-17 2.5,-17 2,-13 C1.6,-10 4.5,-8.5 6.5,-10"/><g transform="translate(32.1 678.3) rotate(-12.885964983200623) scale(-0.77,0.77)" class="leaf"><path class="blade" d="M0,0 C8,-11 24,-13 35,-2 C24,9 8,9 0,0 Z"/><path class="vein" d="M2,-0.5 C12,-3 23,-4 32,-2.5"/></g><path class="tendril" transform="translate(34.1 678.3) scale(-1,1)" d="M0,0 C7,-1 11,-7 9,-13 C7.5,-17 2.5,-17 2,-13 C1.6,-10 4.5,-8.5 6.5,-10"/></svg>
+    <nav class="menu">
+      <a href="#">Home</a>
+      <a href="#" class="current">Plants</a>
+      <a href="#">Devices</a>
+      <a href="#">History</a>
+      <a href="#">Account</a>
+      <a href="#">Help</a>
+    </nav>
+  </aside>
+  <main class="main">
+    <div class="block-a"><div class="ph">Pic of plant</div></div>
+    <div class="block-b"><div class="ph">Stats of plant</div></div>
+  </main>
+</div>
+</body>
+</html>
