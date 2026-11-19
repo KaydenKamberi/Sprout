@@ -1,9 +1,112 @@
-/* Global styles. All styles live in .css files: no inline styles (spec 10.9, DEC-03). */
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
+/* Global styles. All styles live in .css files: no inline styles (spec 10.9, DEC-03).
+   Colours come from Design's mockups (docs/design/plant-detail-light.html). */
+
+[data-theme="light"] {
+  --bg: #ffffff;
+  --sidebar: #fbfaf6;
+  --edge: #e4e0d5;
+  --text: #2b2b26;
+  --muted: #8a887c;
+  --accent: #3e7c46;
+  --leaf2: #79a681;
+  --block-a: #8b5e3c;
+  --block-a-edge: #7a5033;
+  --block-b: #cfcdc7;
+  --block-b-edge: #bdbbb4;
+  --ph: #ffffff;
+  --ph-text: #9a9890;
 }
 
-.placeholder {
-  padding: 2rem;
+[data-theme="dark"] {
+  --bg: #0f1f16;
+  --sidebar: #14261b;
+  --edge: #24402f;
+  --text: #f2ede4;
+  --muted: #a3b5a7;
+  --accent: #8fd694;
+  --leaf2: #5fa96b;
+  --block-a: #33261c;
+  --block-a-edge: #4a382a;
+  --block-b: #1c2b21;
+  --block-b-edge: #2a4030;
+  --ph: #223528;
+  --ph-text: #7e9484;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 15.5px;
+  line-height: 1.45;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+a {
+  color: var(--accent);
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.screen-subtitle {
+  color: var(--muted);
+  max-width: 640px;
+}
+
+/* Round content blocks, in Design's two tones. */
+.block {
+  background: var(--block-b);
+  border: 1px solid var(--block-b-edge);
+  border-radius: 18px;
+  padding: 22px;
+}
+
+.block-hero {
+  background: var(--block-a);
+  border: 1px solid var(--block-a-edge);
+  border-radius: 18px;
+  padding: 22px;
+}
+
+.ph-chip {
+  background: var(--ph);
+  border: 1.5px dashed var(--ph-text);
+  border-radius: 12px;
+  padding: 20px 36px;
+  color: var(--ph-text);
+  font: 500 14px "Inter", sans-serif;
+}
+
+/* Auth screens sit alone, without the sidebar. */
+.auth-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.auth-shell .screen {
+  width: min(420px, 90vw);
 }

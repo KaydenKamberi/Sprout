@@ -1,0 +1,61 @@
+import { useState } from "react";
+import { NavLink, Outlet, useLocation } from "react-router";
+import Vine from "./Vine";
+import "./Layout.css";
+
+type Theme = "light" | "dark";
+
+// Matches the six menu items in the D4 mockups; the vine marks the active one.
+const NAV_ITEMS = [
+  { label: "Home", to: "/", match: (p: string) => p === "/" },
+  { label: "Plants", to: "/plants/1", match: (p: string) => /^\/plants\/\d+$/.test(p) || /^\/plants\/\d+\/diagnoses$/.test(p) },
+  { label: "Devices", to: "/devices", match: (p: string) => p.startsWith("/devices") },
+  { label: "History", to: "/plants/1/history", match: (p: string) => p.endsWith("/history") },
+  { label: "Account", to: "/account", match: (p: string) => p === "/account" },
+  { label: "Help", to: "/help", match: (p: string) => p === "/help" },
+];
+
+function initialTheme(): Theme {
+  const saved = typeof localStorage !== "undefined" ? localStorage.getItem("sprout-theme") : null;
+  return saved === "dark" ? "dark" : "light";
+}
+
+export default function Layout() {
+  const [theme, setTheme] = useState<Theme>(initialTheme);
+  const { pathname } = useLocation();
+  const activeIndex = NAV_ITEMS.findIndex((item) => item.match(pathname));
+
+  return (
+    <div className="app-frame">
+      <header className="app-header">
+        <span className="logo">Sprout</span>
+        <button
+          type="button"
+          className="theme-toggle"
+          onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+        >
+          {theme === "light" ? "Dark" : "Light"}
+        </button>
+      </header>
+      <div className="frame">
+        <aside className="sidebar">
+          <Vine activeItem={activeIndex} />
+          <nav className="menu">
+            {NAV_ITEMS.map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                className={item.match(pathname) ? "current" : undefined}
+              >
+                {item.label}
+              </NavLink>
+            ))}
+          </nav>
+        </aside>
+        <main className="main-area">
+          <Outlet />
+        </main>
+      </div>
+    </div>
+  );
+}
